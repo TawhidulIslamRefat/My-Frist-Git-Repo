@@ -1,0 +1,32 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    background-image: url();
+    background-color: azure;
+    justify-content: center;
+
+}
+
+h2{
+    color: aquamarine;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+p{
+    background-image: url("../Image/wallpaperflare.com_wallpaper\ \(2\).jpg");
+
+}
+
+dl{
+    color: cadetblue;
+    background-color: bisque;
+    font-size: medium;
+    font-display: initial;
+}
+ol{
+color: aqua;
+
+}
