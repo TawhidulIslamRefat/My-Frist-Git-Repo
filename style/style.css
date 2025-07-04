@@ -2,31 +2,65 @@
     margin: 10px;
     padding: 10px;
     background-image: url();
-    background-color: azure;
-    justify-content: center;
-
+   
+   
 }
-
-h2{
-    color: aquamarine;
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
     background-color: antiquewhite;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+    border-radius: 10px 20px ;
+    
+
+}
+.heading:hover {
+    color: beige;
+    background-color: aqua;
+    border-radius: 20px 40px;
+    box-shadow: 10px 15px 30px aquamarine;
+
+}
+ul{
+    text-align:  justify;
+    display:inline-flex;
+    font-size:20px ;
+color: #C38689;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 40px;
+    margin-left: 500px;
+}
+#Photo{
+    border: 5px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 600px;
+}
+.dt{
     font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
-}
-p{
-    background-image: url("../Image/farzad-p-xSl33Wxyc-unsplash.jpg");
+    color: #F483C7;
 
 }
-
-dl{
-    color: cadetblue;
-    background-color: bisque;
-    font-size: medium;
-    font-display: initial;
+.dd{
+    color: #3D5387;
 }
-ol{
-color: aqua;
-
+.canada{
+    height: 200px;
+    width: 260px;
+}
+.england{
+    height: 200px;
+    width: 260px;
+}
+#visit{
+    display: inline-flex;
+}
+.h{
+    margin-top: 250px;
+    display: inline-flex;
+}
+.c{
+    margin-left: o;
 }
