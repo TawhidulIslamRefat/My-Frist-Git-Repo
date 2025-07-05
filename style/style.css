@@ -4,6 +4,7 @@
     background-image: url();
    
    
+   
 }
 .heading{
     font-family: 'Times New Roman', Times, serif;
@@ -12,6 +13,8 @@
     background-color: antiquewhite;
     border: 3px solid black;
     border-radius: 10px 20px ;
+    padding-left: 2px;
+    padding-right: 2px;
     
 
 }
@@ -22,45 +25,75 @@
     box-shadow: 10px 15px 30px aquamarine;
 
 }
-ul{
-    text-align:  justify;
-    display:inline-flex;
-    font-size:20px ;
-color: #C38689;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    padding: 40px;
-    margin-left: 500px;
+#navbar{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 800;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: aquamarine;
+  position: sticky;
+  top: 0;
 }
-#Photo{
-    border: 5px solid black;
-    border-radius: 50%;
-    justify-content: center;
-    margin-left: 600px;
+.list{
+text-decoration: none;
+color:#4bcffa;
+background-color:#1e272e;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+position: sticky;
+
+
 }
-.dt{
-    font-size: 20px;
-    color: #F483C7;
+#About{
+text-decoration: underline;
+background-color: #3D5387;
+}
+.right{
+    text-align: center;
+}
+
+.Photo{
+  margin-left: 650px;
+  border-radius: 50%;
+  overflow: hidden;
+ box-shadow: 0 0 20px rgb(39, 210, 240);
+ animation: glow-border 1.5s infinitee alternate
+  
 
 }
 .dd{
     color: #3D5387;
 }
 .canada{
-    height: 200px;
-    width: 260px;
+    height:200px;
+    width: 320px;
 }
 .england{
     height: 200px;
-    width: 260px;
+    width: 320px;
 }
 #visit{
-    display: inline-flex;
+    display:flex;
+    justify-content: center;
+
 }
-.h{
-    margin-top: 250px;
-    display: inline-flex;
+.can{
+
+ 
+ border-left:3px solid #3D5387;
+ border-top:3px solid #3D5387;
+ box-shadow: 5px 10px 20px black;
+ background-color: hsl(195, 45%, 81%);
+ text-align: center;
+ border-radius: 15px;
 }
-.c{
-    margin-left: o;
+.vsc{
+    font-size: 30px;
+    padding: 30px 0px;
+    text-align: center;
+    color: rgb(43, 51, 48);
 }
