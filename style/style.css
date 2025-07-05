@@ -49,11 +49,11 @@ position: sticky;
 
 }
 #About{
-text-decoration: underline;
-background-color: #3D5387;
+background-color: #F5CDD0;
 }
 .right{
     text-align: center;
+    color: rgba(8, 7, 8, 0.658);
 }
 
 .Photo{
@@ -79,6 +79,7 @@ background-color: #3D5387;
 #visit{
     display:flex;
     justify-content: center;
+    background-image:url(../Image/8288032.jpg) ;
 
 }
 .can{
