@@ -1,0 +1,12 @@
+.navber ul li{
+    list-style: none;
+    display: inline;
+   text-decoration: none;
+   text-transform: uppercase;
+  
+}
+.navber ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}

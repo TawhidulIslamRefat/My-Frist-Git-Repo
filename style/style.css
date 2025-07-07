@@ -110,3 +110,39 @@ background-color: #F5CDD0;
 .user{
     display: block;
 }
+.select{
+    text-align: center;
+
+}
+.select select option{
+    color: #4bcffa;
+    background-color: #3D5387;
+    text-transform: uppercase;
+}
+.select select,textarea{
+    border-radius: 20px;
+   
+    text-transform: uppercase;
+    color:rgb(28, 42, 46);
+    /* background: #4bcffa; */
+}
+h2,h3{
+    /* background-color: #1e272e; */
+    color: aliceblue;
+
+}
+fieldset{
+    border-left: 10px solid black;
+    box-shadow: 10px 20px 40px black;
+    background-image: url("../Image/faded_gallery-OfdOEdGYiuk-unsplash.jpg");
+}
+legend{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.btn:hover{
+    color: black;
+    background-color:aquamarine;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
